@@ -1,0 +1,14 @@
+.input {
+  height: 30px;
+  margin-left: 20px;
+  background-color: #ebe9e9;
+  width: 200px;
+  border-radius: 4px;
+  color: rgb(160, 100, 11);
+}
+
+.text {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 120px;
+}

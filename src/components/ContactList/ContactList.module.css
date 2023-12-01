@@ -1,0 +1,31 @@
+.delBtn {
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+  margin-left: 20px;
+  background-color: #ebe9e9;
+  color: rgb(160, 100, 11);
+}
+
+.delBtn:hover {
+  box-shadow: 0 0 5px #33a16e, 0 0 20px #33a16e, 0 0 40px #33a16e,
+    0 0 200px #33a16e;
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.it {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+  margin-right: 40px;
+}
+
+.text {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  list-style-type: none;
+}

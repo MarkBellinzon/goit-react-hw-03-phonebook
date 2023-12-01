@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+.ttitle {
+  font-size: 18px;
+  font-family: cursive sans-serif;
+  color: rgb(30, 95, 73);
+}
+
+.input {
+  height: 25px;
+  margin-left: 20px;
+  background-color: #ebe9e9;
+  width: 200px;
+  border-radius: 2px;
+  color: rgb(160, 100, 11);
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #ebe9e9;
+  cursor: pointer;
+  color: rgb(160, 100, 11);
+}
+
+.button:hover {
+  box-shadow: 0 0 5px #33a16e, 0 0 10px #33a16e, 0 0 20px #33a16e,
+    0 0 100px #33a16e;
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
